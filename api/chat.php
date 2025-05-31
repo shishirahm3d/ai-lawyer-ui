@@ -47,7 +47,7 @@ $parameters = $input['parameters'] ?? [
 // Replace the Ollama API configuration section with:
 // Get model and API URL from request or use defaults
 $model = $input['model'] ?? "hf.co/shishirahm3d/ai-lawyer-bd-1-8b-instruct-bnb-4bit-GGUF:Q4_K_M";
-$ollama_url = $input['apiUrl'] ?? "https://6042-35-233-247-35.ngrok-free.app/api/chat";
+$ollama_url = $input['apiUrl'] ?? "https://3acc-34-143-176-29.ngrok-free.app/api/chat";
 
 error_log("Using model: " . $model);
 error_log("Using API URL: " . $ollama_url);
